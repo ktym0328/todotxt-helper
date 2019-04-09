@@ -2,11 +2,12 @@
   "name": "todotxt-helper",
   "main": "./lib/todotxt-helper",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "to help input todo.txt",
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "todotxt-helper:toggle"
+    "atom-workspace": "todotxt-helper:toggle",
+    "atom-workspace": "todotxt-helper:InsertDate"
   },
   "repository": "https://github.com/atom/todotxt-helper",
   "license": "MIT",
@@ -14,5 +15,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "language-todotxt": "1.1.5"
   }
 }

@@ -4,6 +4,9 @@
       {
         "label": "Toggle todotxt-helper",
         "command": "todotxt-helper:toggle"
+      },{
+        "label": "InsertDate todotxt-helper",
+        "command": "todotxt-helper:InsertDate"
       }
     ]
   },
@@ -17,6 +20,9 @@
             {
               "label": "Toggle",
               "command": "todotxt-helper:toggle"
+            },{
+              "label": "InsertDate",
+              "command": "todotxt-helper:InsertDate"
             }
           ]
         }

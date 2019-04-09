@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "todotxt-helper:toggle"
+    "ctrl-alt-o": "todotxt-helper:toggle",
+    "ctrl-;": "todotxt-helper:InsertDate"    
   }
 }
