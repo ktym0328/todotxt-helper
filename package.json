@@ -1,9 +1,13 @@
 {
   "name": "todotxt-helper",
+  "theme": "syntax",
   "main": "./lib/todotxt-helper",
   "version": "0.0.0",
   "description": "to help input todo.txt",
   "keywords": [
+    "syntax",
+    "theme",
+    "todo"
   ],
   "activationCommands": {
     "atom-workspace": "todotxt-helper:toggle",
