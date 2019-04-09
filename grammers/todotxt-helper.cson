@@ -1,7 +1,10 @@
-'fileTypes': [
-  'todo.tdm'
-]
-'name': 'TodoTXT'
+name: 'TodoTXT'
+scopeName: 'text.todotxt'
+type: 'tree-sitter'
+parser: 'todotxt-helper-parser.'
+
+fileTypes: ['tdm']
+
 'patterns': [
   {
     'match': '^\\([A-Z]\\)'
@@ -50,4 +53,3 @@
     'name': 'comment.line.todotxt'
   }
 ]
-'scopeName': 'text.todotxt'
