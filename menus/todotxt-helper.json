@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle todotxt-helper",
+        "command": "todotxt-helper:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "todotxt-helper",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "todotxt-helper:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
