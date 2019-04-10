@@ -1,12 +1,10 @@
 {
   "name": "todotxt-helper",
-  "theme": "syntax",
   "main": "./lib/todotxt-helper",
   "version": "0.0.0",
   "description": "to help input todo.txt",
   "keywords": [
     "syntax",
-    "theme",
     "todo"
   ],
   "activationCommands": {
@@ -19,5 +17,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "language-todotxt": "1.1.5"
   }
 }
