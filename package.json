@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "description": "to help input todo.txt",
   "keywords": [
-    "syntax",
     "todo"
   ],
   "activationCommands": {
