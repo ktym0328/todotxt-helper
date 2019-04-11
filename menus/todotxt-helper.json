@@ -2,11 +2,11 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle todotxt-helper",
-        "command": "todotxt-helper:toggle"
-      },{
         "label": "InsertDate todotxt-helper",
         "command": "todotxt-helper:InsertDate"
+      },{
+        "label": "Open Task View",
+        "command": "todotxt-helper:OpenTaskView"
       }
     ]
   },
@@ -18,11 +18,11 @@
           "label": "todotxt-helper",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "todotxt-helper:toggle"
-            },{
               "label": "InsertDate",
               "command": "todotxt-helper:InsertDate"
+            },{
+              "label": "Open Task View",
+              "command": "todotxt-helper:OpenTaskView"
             }
           ]
         }
