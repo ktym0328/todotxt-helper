@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-;": "todotxt-helper:InsertDate"    
+    "ctrl-;": "todotxt-helper:InsertDate",
+    "ctrl-shift-x": "todotxt-helper:ChangeState"
   }
 }

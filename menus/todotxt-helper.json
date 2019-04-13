@@ -7,6 +7,9 @@
       },{
         "label": "Open Task View",
         "command": "todotxt-helper:OpenTaskView"
+      },{
+        "label": "Change State",
+        "command": "todotxt-helper:ChangeState"
       }
     ]
   },
@@ -23,6 +26,9 @@
             },{
               "label": "Open Task View",
               "command": "todotxt-helper:OpenTaskView"
+            },{
+              "label": "Change State",
+              "command": "todotxt-helper:ChangeState"
             }
           ]
         }
