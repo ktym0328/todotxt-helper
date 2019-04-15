@@ -7,9 +7,11 @@
     "todo"
   ],
   "activationCommands": {
-    "atom-workspace": "todotxt-helper:InsertDate",
-    "atom-workspace": "todotxt-helper:OpenTaskView",
-    "atom-workspace": "todotxt-helper:ChangeState"
+    "atom-text-editor":[
+      "todotxt-helper:InsertDate",
+      "todotxt-helper:OpenTaskView",
+      "todotxt-helper:ChangeState"
+    ]
   },
   "repository": "https://github.com/atom/todotxt-helper",
   "license": "MIT",
